@@ -1,7 +1,7 @@
 package com.shtokal.simpleapp.controller;
 
 import com.shtokal.simpleapp.entity.Book;
-import com.shtokal.simpleapp.service.ProductService;
+import com.shtokal.simpleapp.service.BookService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,34 +10,34 @@ import java.util.List;
 public class BookController {
 
 
-    private final  ProductService service;
+    private final BookService service;
 
-    public BookController(ProductService service) {
+    public BookController(BookService service) {
         this.service = service;
 
     }
 
-    @PostMapping("/addProduct")
-    public Book addProduct(@RequestBody Book book) {
+    @PostMapping("/addBook")
+    public Book addBook(@RequestBody Book book) {
         return service.saveProduct(book);
     }
 
-    @PostMapping("/addProducts")
-    public List<Book> addProducts(@RequestBody List<Book> books) {
+    @PostMapping("/addBookss")
+    public List<Book> addBooks(@RequestBody List<Book> books) {
         return service.saveProducts(books);
     }
 
-    @GetMapping("/products")
-    public List<Book> findAllProducts() {
+    @GetMapping("/books")
+    public List<Book> findAllBookss() {
         return service.getProducts();
     }
 
-    @GetMapping("/productById/{id}")
+    @GetMapping("/bookById/{id}")
     public Book findProductById(@PathVariable int id) {
         return service.getProductById(id);
     }
 
-    @GetMapping("/product/{name}")
+    @GetMapping("/book/{name}")
     public Book findProductByName(@PathVariable String name) {
         return service.getProductByName(name);
     }
