@@ -16,32 +16,32 @@ public class BookService {
         this.repository = repository;
     }
 
-    public Book saveProduct(Book book) {
+    public Book saveBook(Book book) {
         return repository.save(book);
     }
 
-    public List<Book> saveProducts(List<Book> books) {
+    public List<Book> saveBooks(List<Book> books) {
         return repository.saveAll(books);
     }
 
-    public List<Book> getProducts() {
+    public List<Book> getBooks() {
         return repository.findAll();
     }
 
-    public Book getProductById(int id) {
+    public Book getBookById(int id) {
         return repository.findById(id).orElse(null);
     }
 
-    public Book getProductByName(String name) {
+    public Book getBookByName(String name) {
         return repository.findByName(name);
     }
 
-    public String deleteProduct(int id) {
+    public String deleteBook(int id) {
         repository.deleteById(id);
-        return "product removed !! " + id;
+        return "book removed !! " + id;
     }
 
-    public Book updateProduct(Book book) {
+    public Book updateBook(Book book) {
         Book existingBook = repository.findById(book.getId()).orElse(null);
         existingBook.setName(book.getName());
         existingBook.setPages(book.getPages());

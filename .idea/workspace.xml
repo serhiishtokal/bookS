@@ -22,13 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b56563d-6a99-4383-9934-719347d23080" name="Default Changelist" comment="swagger check">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4b56563d-6a99-4383-9934-719347d23080" name="Default Changelist" comment="repo">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shtokal/simpleapp/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shtokal/simpleapp/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shtokal/simpleapp/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shtokal/simpleapp/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shtokal/simpleapp/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shtokal/simpleapp/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shtokal/simpleapp/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shtokal/simpleapp/service/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,20 @@
       <command value="mvn package -Dmaven.test.skip=true" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SimpleApp">
+    <configuration name="SimpleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shtokal.simpleapp.SimpleApp" />
+      <module name="Serhii Shtokal 2.1.6 - lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shtokal.simpleapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="LabProject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shtokal.simpleapp.SimpleApp" />
@@ -95,6 +106,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SimpleApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -116,7 +135,7 @@
       <workItem from="1604662383285" duration="2309000" />
       <workItem from="1605815596676" duration="98000" />
       <workItem from="1605815773232" duration="41000" />
-      <workItem from="1605815846654" duration="2177000" />
+      <workItem from="1605815846654" duration="3851000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1604518454591</created>
@@ -153,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604663815584</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="repo">
+      <created>1605818180112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605818180112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +203,8 @@
     <MESSAGE value="22248" />
     <MESSAGE value="swagger" />
     <MESSAGE value="swagger check" />
-    <option name="LAST_COMMIT_MESSAGE" value="swagger check" />
+    <MESSAGE value="repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="repo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2459" y="383" key="#Assign_Data_Sources" timestamp="1604178446088">
@@ -188,11 +215,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605816118182" />
-    <state x="75" y="218" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605815926919">
+    <state x="75" y="218" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605819444923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1970" y="206" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604520739334" />
-    <state x="75" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605815926919" />
+    <state x="75" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605819444923" />
     <state x="2383" y="297" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604178908580">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
@@ -211,30 +238,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="639" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605816894676" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605818089489">
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom" timestamp="1605819584193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="104" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604181532384" />
     <state width="1237" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604525113630" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605818089489" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605818089489">
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605819584193" />
+    <state width="1877" height="464" key="GridCell.Tab.0.center" timestamp="1605819584193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="104" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604181532384" />
     <state width="1237" height="264" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604525113630" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605818089489" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605818089489">
+    <state width="1877" height="464" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605819584192" />
+    <state width="1877" height="464" key="GridCell.Tab.0.left" timestamp="1605819584192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="104" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604181532383" />
     <state width="1237" height="264" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604525113630" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605818089489" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605818089489">
+    <state width="1877" height="464" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605819584192" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right" timestamp="1605819584193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="104" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604181532384" />
     <state width="1237" height="264" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604525113630" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605818089489" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605819584193" />
     <state width="1237" height="264" key="GridCell.Tab.1.bottom" timestamp="1604525113631">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
@@ -264,11 +291,12 @@
     </state>
     <state x="2061" y="133" key="SettingsEditor/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604518569257" />
     <state x="574" y="179" key="SettingsEditor/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605816578135" />
-    <state x="278" y="188" key="Vcs.Push.Dialog.v2" timestamp="1604663873105">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="348" y="237" key="Vcs.Push.Dialog.v2" timestamp="1605818263479">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="278" y="188" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604663873105" />
     <state x="2152" y="225" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604521466909" />
+    <state x="348" y="237" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605818263479" />
     <state x="636" y="317" width="380" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604179636276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -279,6 +307,14 @@
     </state>
     <state x="2243" y="140" width="939" height="797" key="dock-window-1/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604519932216" />
     <state x="-1366" y="0" width="980" height="717" key="dock-window-1/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605817644539" />
+    <state x="-1181" y="0" width="935" height="815" maximized="true" key="dock-window-2" timestamp="1605819789718">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1181" y="0" width="935" height="815" maximized="true" key="dock-window-2/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605819789718" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1605818779362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605818779362" />
     <state x="205" y="78" key="new project wizard" timestamp="1604172776741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -289,9 +325,9 @@
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1604180831863" />
     <state x="2274" y="223" width="672" height="809" key="run.anything.popup/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1604233552705" />
     <state x="531" y="236" width="1008" height="856" key="run.anything.popup/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605816125047" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605817875508">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605818852618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605817875508" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1605818852618" />
   </component>
 </project>
