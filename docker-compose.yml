@@ -1,0 +1,32 @@
+version: "3.7"
+services:
+  Full2020-94900:
+    container_name: Full2020-94900
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=serhii
+      - MYSQL_DATABASE=product
+      - MYSQL_USER=sshtokal
+      - MYSQL_PASSWORD=serhii
+    networks:
+      Bridge-Zadanie-1:
+        ipv4_address: 10.0.10.3
+  my-container:
+    container_name: my-container
+    image: shtokalss/textexpenses
+    ports:
+      - 8080:8080
+    restart: always
+    depends_on:
+      - Full2020-94900
+    networks:
+      Bridge-Zadanie-1:
+        ipv4_address: 10.0.10.4
+networks:
+  Bridge-Zadanie-1:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.10.0/24
+
+
